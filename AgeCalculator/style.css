@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: auto;
+    width: auto;
+    background-color: rgb(247, 238, 161);
+    border: 2px solid rgb(212, 201, 100);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.container .dob{
+    padding: 1rem;
+}
+.container .heading{
+    font-weight: 900;
+    color: rgb(2, 78, 109);
+    margin-bottom: 2rem;
+}
+.dob label{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.dob input{
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    padding: 0.25rem;
+    padding-left: 2rem;
+}
+.container button {
+    width: 150px;
+    font-size: 1.1rem;
+    line-height: 2;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to bottom right, #777, #ddd);
+    box-shadow:
+      1px 1px 1px black,
+      inset 2px 3px 5px rgb(0 0 0 / 30%),
+      inset -2px -3px 5px rgb(255 255 255 / 50%);
+  }
+.container button:focus, button:hover {
+    background-image: linear-gradient(to bottom right, #888, #eee);
+}
+  
+.container button:active {
+box-shadow:
+      inset 2px 2px 1px black,
+      inset 2px 3px 5px rgb(0 0 0 / 30%),
+      inset -2px -3px 5px rgb(255 255 255 / 50%);
+}
+.container #output{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
